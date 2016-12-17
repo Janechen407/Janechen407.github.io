@@ -1,0 +1,92 @@
+body {
+    background-color: bisque
+}
+
+
+/*
+Header
+*/
+
+header {
+    height: 200px;
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/15225125.jpg)
+}
+
+
+/*
+引文
+*/
+
+blockquote {
+    width: 300px;
+    background-image: url(../images/logo.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    background-position: right bottom;
+}
+
+
+/*
+縮圖區塊設定
+*/
+
+.thumbnail {
+    width: calc(25% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.thumbnail-img {
+    width: 100%;
+}
+
+.caption-title {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.caption-body {
+    line-height: 1.5;
+    text-align: center;
+}
+
+.caption-btn {
+    text-decoration: none;
+}
+
+.caption-btn {
+    display: block;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #676D79;
+    border-radius: 5px;
+}
+
+.caption-btn:link {
+    color: white;
+    background-color: pink;
+}
+
+.caption-btn:visited {
+    color: white;
+    background-color: pink;
+}
+
+.caption-btn:hover {
+    color: papayawhip;
+    background-color: palevioletred;
+}
+
+.caption-btn:active {
+    color: hotpink;
+    background-color: purple;
+}
